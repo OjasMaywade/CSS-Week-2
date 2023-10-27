@@ -1,0 +1,114 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+}
+
+header,
+section {
+  height: 100vh;
+  overflow-y: auto;
+}
+
+section:nth-child(2n) {
+  background-color: #ededed;
+  background-image: linear-gradient(to bottom right, #687EFF, #F8BDEB);
+}
+section {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-justify-center {
+  display: flex;
+  justify-content: center;
+}
+
+.text-align-center {
+  text-align: center;
+}
+
+.flex-align-items-center {
+  align-items: center;
+}
+
+.hero {
+  color: #232D3F;
+  flex-direction: column;
+  text-align: center;
+  background-image: url(./assets/hand-painted-watercolor-pastel-sky-background_23-2148902771.avif);
+  background-size:  100vw 100vh;
+  background-repeat: no-repeat;
+}
+.hero>h1{
+  font-size: 55px;
+}
+.hero>div{
+  width:100px;
+  height: 35px;
+  border-radius: 10px;
+  background-color: #FF8080;
+  position: relative;
+  left: 47%;
+  bottom: -5%;
+}
+.hero>div>a
+{
+  text-decoration: none;
+  position: relative;
+  top: 5px;
+}
+.about-content article {
+  flex-direction: column;
+}
+
+.section-title{
+  font-size: 30px;
+}
+section.crafts article {
+  gap: 24px;
+  margin-top: 24px;
+}
+
+section.crafts img {
+  height: 200px;
+}
+
+.contact ul {
+  padding: 0;
+}
+
+.contact ul > li {
+  display: inline-block;
+}
+.about{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.experience{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.crafts {
+  background-color: #ededed;
+  background-image: linear-gradient(to bottom right, #F6FDC3, #F8BDEB);
+}
+.contact{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ededed;
+  background-image: linear-gradient(to bottom right, #F6FDC3, #F8BDEB);
+}
